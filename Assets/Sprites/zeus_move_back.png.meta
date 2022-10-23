@@ -101,6 +101,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -110,7 +122,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 91
+        width: 100
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -129,9 +141,9 @@ TextureImporter:
       name: zeus_move_back_1
       rect:
         serializedVersion: 2
-        x: 107
+        x: 100
         y: 0
-        width: 65
+        width: 100
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -150,9 +162,9 @@ TextureImporter:
       name: zeus_move_back_2
       rect:
         serializedVersion: 2
-        x: 198
+        x: 200
         y: 0
-        width: 87
+        width: 100
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -171,9 +183,9 @@ TextureImporter:
       name: zeus_move_back_3
       rect:
         serializedVersion: 2
-        x: 298
+        x: 300
         y: 0
-        width: 87
+        width: 100
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -192,9 +204,9 @@ TextureImporter:
       name: zeus_move_back_4
       rect:
         serializedVersion: 2
-        x: 396
+        x: 400
         y: 0
-        width: 91
+        width: 100
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -213,9 +225,9 @@ TextureImporter:
       name: zeus_move_back_5
       rect:
         serializedVersion: 2
-        x: 496
+        x: 500
         y: 0
-        width: 87
+        width: 100
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
