@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 51e1f30ba5c708a49b6faa9588549fa5
+guid: fd515c91391b7974594536e6e33f2f2d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 600
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -101,6 +101,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -110,17 +122,17 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 69
-        height: 100
+        width: 636.2
+        height: 1023
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 271cf7db919471f4d8690f21fd14ee74
-      internalID: -1257490259
+      spriteID: 46c6ef4689b760d4585878d582955172
+      internalID: 687547501
       vertices: []
       indices: 
       edges: []
@@ -129,19 +141,19 @@ TextureImporter:
       name: zeus_move_right_1
       rect:
         serializedVersion: 2
-        x: 78
+        x: 636
         y: 0
-        width: 103
-        height: 100
+        width: 581
+        height: 1023
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49ba9e188d93c6245a4e5922d20bfec7
-      internalID: 231871704
+      spriteID: 270230dbb8445d741a71b2d023c612c8
+      internalID: 2033514062
       vertices: []
       indices: 
       edges: []
@@ -150,19 +162,19 @@ TextureImporter:
       name: zeus_move_right_2
       rect:
         serializedVersion: 2
-        x: 193
+        x: 1220
         y: 0
-        width: 81
-        height: 100
+        width: 714
+        height: 1023
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 539e62edd098528448af531caf6702b6
-      internalID: -1452904174
+      spriteID: 3b253bac66a9d214988536a163a75be7
+      internalID: -556565358
       vertices: []
       indices: 
       edges: []
@@ -171,19 +183,19 @@ TextureImporter:
       name: zeus_move_right_3
       rect:
         serializedVersion: 2
-        x: 288
+        x: 1943
         y: 0
-        width: 96
-        height: 100
+        width: 636
+        height: 1023
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b26661969784c6643b2c76aca28c6662
-      internalID: 1984323107
+      spriteID: 4b862a64d1bdb9045883f0e1dbb2c033
+      internalID: -863972131
       vertices: []
       indices: 
       edges: []
@@ -192,19 +204,19 @@ TextureImporter:
       name: zeus_move_right_4
       rect:
         serializedVersion: 2
-        x: 385
+        x: 2544
         y: 0
-        width: 97
-        height: 100
+        width: 581
+        height: 1023
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 8, y: 0, z: 43, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2588f4e94b6a54840bf809b0004c74fb
-      internalID: -149829826
+      spriteID: 5424d33fa76100d4ab1df0da1e322364
+      internalID: 1272641568
       vertices: []
       indices: 
       edges: []
@@ -213,19 +225,103 @@ TextureImporter:
       name: zeus_move_right_5
       rect:
         serializedVersion: 2
-        x: 485
+        x: 3118
         y: 0
-        width: 103
-        height: 100
+        width: 465
+        height: 1023
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 251, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ede8fb7d1bd9de4ca67f288ba7f0ce7
+      internalID: -772634035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeus_move_right_6
+      rect:
+        serializedVersion: 2
+        x: 3575
+        y: 0
+        width: 559
+        height: 1023
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 311, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccae6e789f33404a93503aef337d779
+      internalID: 2016983432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeus_move_right_7
+      rect:
+        serializedVersion: 2
+        x: 4178
+        y: 0
+        width: 636
+        height: 1023
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf9ad5e2a2d6fa4489126ad41fd642b0
-      internalID: -1041767932
+      spriteID: 5279d69681395874e9e6a0913fc2c1ee
+      internalID: 60018572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeus_move_right_8
+      rect:
+        serializedVersion: 2
+        x: 4856
+        y: 0
+        width: 636
+        height: 1023
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff58bd2a77190649998cfa39f489bea
+      internalID: -803521687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeus_move_right_9
+      rect:
+        serializedVersion: 2
+        x: 5571
+        y: 0
+        width: 636
+        height: 1023
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d436a5bbcaa8c43a5b09c09f696ef0
+      internalID: -696624090
       vertices: []
       indices: 
       edges: []
@@ -241,12 +337,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      zeus_move_right_0: -1257490259
-      zeus_move_right_1: 231871704
-      zeus_move_right_4: -149829826
-      zeus_move_right_5: -1041767932
-      zeus_move_right_2: -1452904174
-      zeus_move_right_3: 1984323107
+      zeus_move_right_9: -696624090
+      zeus_move_right_7: 60018572
+      zeus_move_right_0: 687547501
+      zeus_move_right_1: 2033514062
+      zeus_move_right_6: 2016983432
+      zeus_move_right_4: 1272641568
+      zeus_move_right_8: -803521687
+      zeus_move_right_5: -772634035
+      zeus_move_right_2: -556565358
+      zeus_move_right_3: -863972131
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
