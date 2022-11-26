@@ -55,7 +55,21 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        var zCameraCoord = mainCamera.transform.position.z;
+
         rb.MovePosition(rb.position + moveSpeed * Time.fixedDeltaTime * movement);
-        mainCamera.transform.position = new Vector3(rb.position.x, rb.position.y, -10f);
+
+        var targetPosition = new Vector3(rb.position.x, rb.position.y, zCameraCoord);
+        var screenRect = new Rect(0f, 0f, Screen.width, Screen.height);
+        if (screenRect.Contains(Input.mousePosition))
+        {
+            targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            var newCameraposition = Vector2.Lerp(rb.position, targetPosition, 0.4f);
+            mainCamera.transform.position = new Vector3(newCameraposition.x, newCameraposition.y, zCameraCoord);
+        }
+        else
+        {
+            mainCamera.transform.position = targetPosition;
+        }
     }
 }
