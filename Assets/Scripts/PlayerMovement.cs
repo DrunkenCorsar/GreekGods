@@ -55,21 +55,20 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        var zCameraCoord = mainCamera.transform.position.z;
-
+        // move player
         rb.MovePosition(rb.position + moveSpeed * Time.fixedDeltaTime * movement);
 
-        var targetPosition = new Vector3(rb.position.x, rb.position.y, zCameraCoord);
+        // camera follows mouse
         var screenRect = new Rect(0f, 0f, Screen.width, Screen.height);
         if (screenRect.Contains(Input.mousePosition))
         {
-            targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            var newCameraposition = Vector2.Lerp(rb.position, targetPosition, 0.4f);
-            mainCamera.transform.position = new Vector3(newCameraposition.x, newCameraposition.y, zCameraCoord);
+            var targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            var finalPosition = Vector2.Lerp(rb.position, targetPosition, 0.4f);
+            mainCamera.transform.position = new Vector3(finalPosition.x, finalPosition.y, -10f);
         }
         else
         {
-            mainCamera.transform.position = targetPosition;
+            mainCamera.transform.position = new Vector3(rb.position.x, rb.position.y, -10f);
         }
     }
 }
